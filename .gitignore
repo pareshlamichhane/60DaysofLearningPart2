@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+ml_env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+.history/
+
+# Jupyter runtime files
+*.nbconvert.ipynb
+*.nb.html
+*.nb.json
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.db
+*.sqlite
+*.zip
+
+# Model weights or large files
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Python environment metadata
+Pipfile.lock
+poetry.lock
