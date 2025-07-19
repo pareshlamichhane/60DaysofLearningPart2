@@ -27,4 +27,4 @@ jobs:
           python-version: '3.13'
       - run: python --version
       - run: python -m pip install -r requirements_dev.txt
-      - run: python pytest
+      - run: pytest
